@@ -133,7 +133,7 @@ function lang(language) {
                         t6: 'Ares is an on-chain-verified oracle protocol that provides secure and reliable data services for the Polkadot DeFi ecosystem.',
                         t7: 'Technology Architecture',
                         t8: 'Architecture',
-                        t9: "Ares is an on-chain verifying oracle protocol powered by Polkdot. It provides reliable off-chain data efficiently and in a trustless manner. Ares is built on Substrate and constructed as a parachain to link to Polkadot's ecology and share its security consensus. It is a scalable  oracle network that provides decentralized data  services to the Polkadot ecosystem and its parachains.",
+                        t9: "Ares is an on-chain verifying oracle protocol powered by Polkadot. It provides reliable off-chain data efficiently and in a trustless manner. Ares is built on Substrate and constructed as a parachain to link to Polkadot's ecology and share its security consensus. It is a scalable  oracle network that provides decentralized data  services to the Polkadot ecosystem and its parachains.",
                         t10: 'Data consumer',
                         t11: 'Data consumers can be objects that need to obtain external data in smart contracts, parachains, and DAPPs. They can provide various credible and compelling data for DEFI, prediction markets, and gambling.',
                         t12: 'Aggregator',

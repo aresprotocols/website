@@ -21,6 +21,42 @@ body {
     position: relative;
 }
 
+.top-alert{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #00ccff;
+    height: 45px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    line-height: 45px;
+}
+
+
+.top-alert p {
+    width: 100%;
+    padding: 0 .2rem;
+    text-align: center;
+    font-family: Avenir-Heavy;
+    color: #faff07;
+    font-size: 30px;
+}
+
+.top-alert .closex {
+    position: absolute;
+    right: 25px;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size:25px;
+    padding: .05rem;
+    cursor: pointer;
+}
+
 .top-animail {
     width: 1980px;
     height: 650px;
@@ -1048,7 +1084,7 @@ header[style] {
 }
 
 .header {
-    padding: 10px 0;
+    padding: 0 0 10px 0;
     -webkit-transition: all 400ms cubic-bezier(0.65, 0, 0.35, 1);
     transition: all 400ms cubic-bezier(0.65, 0, 0.35, 1);
     background: #243148;
@@ -3188,6 +3224,43 @@ header[style] {
             font-weight: 400;
             color: #081B21;
             line-height: 20px;
+        }
+
+        .top-alert{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #00ccff;
+            height: 45px;
+            box-sizing: border-box;
+            position: relative;
+            text-align: center;
+            line-height: 45px;
+        }
+        
+        
+        .top-alert p {
+            width: 100%;
+            padding: 0 .2rem;
+            text-align: center;
+            font-family: Avenir-Heavy;
+            color: #faff07;
+            font-size: 15px;
+            line-height:initial;
+        }
+        
+        .top-alert .closex {
+            position: absolute;
+            right: 25px;
+            top: 45%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-size:25px;
+            padding: .05rem;
+            cursor: pointer;
         }
     }
 }

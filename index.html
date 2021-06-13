@@ -101,6 +101,12 @@
                                         <a class="nav-link menu-link" href="https://docs.aresprotocol.com/"
                                             data-i18n="lag.t59" target="_blank">Documentation</a>
                                     </li>
+									<li class="nav-item">
+                                        <a class="nav-link menu-link" href="https://trojan.aresprotocol.io/" target="_blank">Farms</a>
+                                    </li>
+									<li class="nav-item">
+                                        <a class="nav-link menu-link uniswap" href="javascript:;">Uniswap</a>
+                                    </li>
                                 </ul>
                             </div>
                             <img src="static/picture/lang-change.png" alt="" class="chang-img changeL" lang="zh">
@@ -745,7 +751,7 @@
                                         Copyright &copy; 2021.The Ares Protocol All rights reserved.
                                     </p>
                                     <p class="footer-desc">
-                                        info@aresprotocol.com
+                                        info@aresprotocol.io
                                     </p>
                                     <div class="footer-social-links">
                                         <a href="https://t.me/Aresprotocols">
@@ -878,6 +884,33 @@
     <script type="text/javascript">
         $(".closex").click(function () {
             $(".top-alert").css('display', 'none')
+        });
+		$(".movie").click(function () {
+            $(".movie").css('display', 'none')
+            $("#video").css('display', 'block')
+            $(
+                "#video"
+            ).trigger(
+                "play"
+            );
+        });
+
+        $(".pcmovie").click(function () {
+            $(".pcmovie").css('display', 'none')
+            $("#pcvideo").css('display', 'block')
+            $(
+                "#pcvideo"
+            ).trigger(
+                "play"
+            );
+        });
+
+        $(".warningurl").click(function () {
+            var url = "https://etherscan.io/token/0x358AA737e033F34df7c54306960a38d09AaBd523";
+            location.href = url;
+        });
+        $(".uniswap").click(function () {
+            window.open("https://app.uniswap.org/#/swap?outputCurrency=0x358AA737e033F34df7c54306960a38d09AaBd523&use=V2",'_blank')
         });
     </script>
 

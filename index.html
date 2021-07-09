@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -59,7 +60,7 @@
         <!--// Header Start //-->
         <header class="header fixed-top" id="header">
             <div class="top-alert">
-                <p>ARES Official ERC-20 Contract is 0x358aa737e033f34df7c54306960a38d09aabd523</p>
+                <p class="warningurl">ARES Official ERC-20 Contract is 0x358AA737e033F34df7c54306960a38d09AaBd523</p>
                 <div class="closex">X</div>
             </div>
             <div class="page-wrapper" id="wrapper">
@@ -98,13 +99,14 @@
                                             data-i18n="lag.t4">Application</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link menu-link" href="https://docs.aresprotocol.com/"
+                                        <a class="nav-link menu-link" href="https://docs.aresprotocol.io"
                                             data-i18n="lag.t59" target="_blank">Documentation</a>
                                     </li>
-									<li class="nav-item">
-                                        <a class="nav-link menu-link" href="https://trojan.aresprotocol.io/" target="_blank">Farms</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-link" href="https://trojan.aresprotocol.io" 
+                                            target="_blank">Farms</a>
                                     </li>
-									<li class="nav-item">
+                                    <li class="nav-item">
                                         <a class="nav-link menu-link uniswap" href="javascript:;">Uniswap</a>
                                     </li>
                                 </ul>
@@ -214,14 +216,6 @@
                         </div>
                         <div class="substrate">
                             <div class="container">
-                                <img src="./img/web3.png" alt="" class="web3grant-img" />
-                                <div class="title">
-                                    Grant from
-                                    <a class="web3-title" href="https://web3.foundation/" target="_blank">Web3</a>
-                                </div>
-                                <div class="desc">Ares Protocol received support from the Web3 Foundation</div>
-                            </div>
-                            <div class="container">
                                 <img src="./img/img2.png" alt="" class="substrate-img" />
                                 <div class="title">
                                     <a class="titles" href="https://www.parity.io/substrate/" target="_blank">
@@ -230,10 +224,17 @@
                                 </div>
                                 <div class="desc">Ares Protocol is based on Substrate</div>
                             </div>
-                            <image class="movie" src="img/movieimg.png">
+                            <image class="pcmovie" src="img/movieimg.png">
 
                             </image>
+                            <video id="pcvideo" class="pcvideo" src="static/video/video.mp4"
+                                controls="controls">你的浏览器不支持</video>
                         </div>
+                        <image class="movie" src="img/movieimg.png">
+
+                        </image>
+                        <video id="video" class="video" src="static/video/video.mp4"
+                            controls="controls">你的浏览器不支持</video>
                         <!-- </div> -->
                     </div>
                 </div>
@@ -548,20 +549,6 @@
                             <div class="team-item">
                                 <div class="body">
 
-                                    <h6 data-i18n="team.t2">
-                                        Michael William
-                                    </h6>
-                                    <span>CEO</span>
-
-                                    <p class="desc" data-i18n="team.t14">
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="team-item">
-                                <div class="body">
-
                                     <h6 data-i18n="team.t1">
                                         Michael William
                                     </h6>
@@ -572,21 +559,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="team-item">
-                                <div class="body">
-
-                                    <h6>
-                                        Zamir
-                                    </h6>
-                                    <span>COO</span>
-
-                                    <div class="desc" data-i18n="team.t26">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="item">
                             <div class="team-item">
                                 <div class="body">
@@ -677,8 +649,13 @@
                         <div class="imgdesc-one">
                             <img src="img/logo5.png" alt="" class="img">
                             <img src="img/logo7.png" alt="" class="img">
+                            <img src="img/logo17.png" alt="" class="img">
                             <img src="img/logo12.png" alt="" class="img">
+                            <img src="img/logo14.png" alt="" class="img">
                             <img src="img/logo3.png" alt="" class="img">
+                            <img src="img/logo18.png" alt="" class="img">
+                            <img src="img/logo15.png" alt="" class="img">
+                            <img src="img/logo16.png" alt="" class="img">
                             <img src="img/logo1.png" alt="" class="img">
                             <img src="img/logo6.png" alt="" class="img">
                             <img src="img/logo8.png" alt="" class="img">
@@ -687,6 +664,10 @@
                             <img src="img/logo2.png" alt="" class="img">
                             <img src="img/logo10.png" alt="" class="img">
                             <img src="img/logo9.png" alt="" class="img">
+                            <img src="img/logo13.png" alt="" class="img">
+                            <img src="img/logo19.png" alt="" class="img">
+                            <img src="img/logo20.png" alt="" class="img">
+                            <img src="img/logo21.png" alt="" class="img">
                         </div>
                     </div>
 
@@ -734,6 +715,37 @@
                             </div>
 
                         </div>
+                        
+                        <div class="mont-desc-box3">
+                            <div>
+                                <p data-i18n="road.t1">White paper 1.0 release</p>
+                                <p data-i18n="road.t2">Core protocol design</p>
+                                <p data-i18n="road.t3">WEB3 Foundation Grant Application</p>
+                                <p data-i18n="road.t4">Prototype development based on pallet and off-chain work</p>
+                            </div>
+                            <div>
+                                <p data-i18n="road.t5">Yellow Book release</p>
+                                <p data-i18n="road.t6">Improve cross-chain interaction for oracle users</p>
+                                <p data-i18n="road.t7">Realize random selection of aggregators and on-chain
+                                    aggregation</p>
+                                <p data-i18n="road.t8">Improve the challenger and arbitration council model</p>
+                                <p data-i18n="road.t9">Token Lisiting on Cex</p>
+                            </div>
+                            <div >
+                                <p data-i18n="road.t10">Improve economic model design</p>
+                                <p data-i18n="road.t11">Launch Testnet</p>
+                                <p data-i18n="road.t12">Integration of Ares Protocol into Polcadot DeFi projects</p>
+                            </div>
+                            <div >
+                                <p data-i18n="road.t13">Launch Mainnet</p>
+                                <p data-i18n="road.t14">Carry out multi-channel service cooperation</p>
+                                <p data-i18n="road.t15">Formal cooperation with enterprises</p>
+                                <p data-i18n="road.t16">Eco Marathon Developer Activities</p>
+                            </div>
+                          
+                          
+
+                        </div>
                     </div>
                 </div>
             </section>
@@ -744,30 +756,36 @@
                 <div class="footer-top">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 col-lg-4 footer-widget-resp">
+                            <div class="col-md-6 col-lg-5 footer-widget-resp">
                                 <div class="footer-widget">
                                     <h6 class="footer-title" data-i18n="lag.t47">About us</h6>
                                     <p class="footer-desc">
                                         Copyright &copy; 2021.The Ares Protocol All rights reserved.
                                     </p>
                                     <p class="footer-desc">
-                                        info@aresprotocol.io
+                                        info@aresprotocol.com
                                     </p>
                                     <div class="footer-social-links">
-                                        <a href="https://t.me/Aresprotocols">
+                                        <a href="https://t.me/aresprotocol" target="_blank">
                                             <i class="fas fa-paper-plane"></i>
                                         </a>
-                                        <a href="https://twitter.com/AresProtocols">
+                                        <a href="https://twitter.com/AresProtocolLab" target="_blank">
                                             <i class="fab fa-twitter"></i>
                                         </a>
-                                        <a href="https://medium.com/@aresprotocol">
+                                        <a href="https://aresprotocollab.medium.com" target="_blank">
                                             <i class="fab fa-medium-m"></i>
                                         </a>
-                                        <a href="https://github.com/aresprotocols">
+                                        <a href="https://github.com/aresprotocols" target="_blank">
                                             <i class="fab fa-github"></i>
                                         </a>
-                                        <a href="https://discord.gg/gWGG63zJVk">
+                                        <a href="https://discord.gg/EsaFRr7xmc" target="_blank">
                                             <i class="fab fa-discord"></i>
+                                        </a>
+                                        <a href="https://www.facebook.com/groups/aresprotocollabs" target="_blank">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                        <a href="https://www.reddit.com/r/AresProtocolLabs/" target="_blank">
+                                            <i class="fab fa-reddit-square"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -796,7 +814,7 @@
                                     <h6 class="footer-title" data-i18n="lag.t60">Resources</h6>
                                     <ul class="footer-links">
                                         <li>
-                                            <a href="https://docs.aresprotocol.com/" data-i18n="lag.t61"
+                                            <a href="https://docs.aresprotocol.io/" data-i18n="lag.t61"
                                                 target="_blank">Documentation</a>
                                         </li>
                                         <li>
@@ -885,7 +903,7 @@
         $(".closex").click(function () {
             $(".top-alert").css('display', 'none')
         });
-		$(".movie").click(function () {
+        $(".movie").click(function () {
             $(".movie").css('display', 'none')
             $("#video").css('display', 'block')
             $(

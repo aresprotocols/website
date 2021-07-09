@@ -26,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #00ccff;
-    height: 45px;
+    height: 40px;
     box-sizing: border-box;
     position: relative;
     text-align: center;
@@ -38,9 +38,10 @@ body {
     width: 100%;
     padding: 0 .2rem;
     text-align: center;
-    font-family: Avenir-Heavy;
     color: #faff07;
-    font-size: 30px;
+    font-size: 25px;
+    cursor:pointer
+
 }
 
 .top-alert .closex {
@@ -2162,7 +2163,7 @@ header[style] {
     }
 }
 
-/ #download-app {
+#download-app {
     z-index: 1;
     padding: 100px 0;
     position: relative;
@@ -2549,11 +2550,15 @@ header[style] {
 .mont-desc-box1 div,
 .mont-desc-box2 div {
     width: 83%;
-    height: 232px;
+    /* height: 232px; */
     font-size: 14px;
     font-weight: 400;
     color: #081B21;
     line-height: 20px;
+}
+
+.mont-desc-box3{
+    display: none;
 }
 
 .mont-desc-box2 p,
@@ -2642,7 +2647,7 @@ header[style] {
     background: rgba(255, 255, 255, 0.05);
     -webkit-transition: all 0.25s linear;
     transition: all 0.25s linear;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: 10px;
     font-size: 20px;
 }
@@ -2928,10 +2933,21 @@ header[style] {
     font-weight: 700;
 }
 
-.substrate .movie {
+.substrate .pcmovie {
     width: 379px;
     height: 209px;
     margin-bottom: 40px;
+    display: block;
+}
+
+.substrate .pcvideo {
+    width: 379px;
+    height: 209px;
+    margin-bottom: 40px;
+    display: none;
+}
+.movie,.video{
+    display: none;
 }
 
 .substrate .titles {
@@ -2992,13 +3008,14 @@ header[style] {
 .imgbox .img {
     width: 21%;
     margin-top: 27px;
+    margin-left: 3%;
 }
 
 .imgdesc-one {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .imgdesc {
@@ -3039,6 +3056,7 @@ header[style] {
     }
     .imgbox .img {
         height: 12%;
+        margin-left: 3%;
     }
     .imgdesc {
         display: flex;
@@ -3050,7 +3068,7 @@ header[style] {
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
         flex-wrap: wrap;
     }
     @media only screen and (max-width: 575.98px) {
@@ -3070,6 +3088,18 @@ header[style] {
             justify-content: space-between;
         }
         .movie {
+            display: block;
+            margin-bottom: 40px;
+            width: 100%;
+            
+        }
+        .video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+            display: none;
+        }
+        .substrate .pcmovie,.substrate .pcvideo{
             display: none;
         }
         .web3grant-img {
@@ -3166,9 +3196,10 @@ header[style] {
         }
         .roadimg2 {
             display: block;
-            width: 90%;
+            width: 30%;
+
             height: auto;
-            margin: 50px auto;
+            /* margin: 50px auto; */
         }
         #contact {
             background: #33BCE9;
@@ -3194,36 +3225,45 @@ header[style] {
             margin-left: 128px;
             margin-top: 89px;
         }
-        .mont-desc-box1-one {
-            margin-top: 102px;
-            margin-left: 0px;
-        }
         .mont-desc-box1 {
             position: absolute;
             display: flex;
             flex-direction: column;
             top: 44%;
-            left: 243px;
+            left: 33%;
+            display: none;
+
         }
         .mont-desc-box2 {
             position: absolute;
             display: flex;
             flex-direction: column;
             top: 23%;
-            left: 18px;
+            left: 33%;
+            display: none;
+
         }
-        .mont-desc-box1-two {
-            margin-left: 0px;
-            margin-top: 122px;
+
+        .mont-desc-box3{
+            display: block;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            top: 10%;
+            left: 33%;
+            height: 100%;
         }
-        .mont-desc-box1 div,
-        .mont-desc-box2 div {
-            width: 119px;
-            height: 232px;
+     
+        .mont-desc-box3 div {
+            width: 100%;
+            height: 21%;
             font-size: 12px;
             font-weight: 400;
             color: #081B21;
             line-height: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .top-alert{
@@ -3231,7 +3271,7 @@ header[style] {
             display: flex;
             align-items: center;
             background-color: #00ccff;
-            height: 45px;
+            height: 40px;
             box-sizing: border-box;
             position: relative;
             text-align: center;
@@ -3243,10 +3283,10 @@ header[style] {
             width: 100%;
             padding: 0 .2rem;
             text-align: center;
-            font-family: Avenir-Heavy;
             color: #faff07;
             font-size: 15px;
             line-height:initial;
+            cursor:pointer
         }
         
         .top-alert .closex {

@@ -70,7 +70,9 @@ function lang(language) {
                         t61: "文档",
                         t62: "浏览器",
                         t63: "市场",
-                        t64: "更多"
+                        t64: "更多",
+                        t65: "购买token",
+                        t66: "挖矿"
                     },
                     team: {
                         t1: "Keric",
@@ -190,7 +192,9 @@ function lang(language) {
                         t61: "Documentation",
                         t62: "Explorer",
                         t63: "Market",
-                        t64: "Read More"
+                        t64: "Read More",
+                        t65: "Buy token",
+                        t66: "Farms"
                     },
                     team: {
                         t1: "Keric",
